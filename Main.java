@@ -7,6 +7,7 @@ class Main {
      {
         System.out.println("I am still " + myAge + " years old.");
      }else{
+       myAge = myAge + 1;
        System.out.println("i am " + myAge + "years old.");
     }
   } 
